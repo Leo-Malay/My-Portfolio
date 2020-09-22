@@ -17,5 +17,8 @@ function color_my_name() {
         if (num >= 7) {
             num = num - 7;
         }
-    }, 1500);
+        if (screen.width <= 1000) {
+            window.location.replace("./warn.html"); //path to your mobile site
+        }
+    }, 1200);
 }
