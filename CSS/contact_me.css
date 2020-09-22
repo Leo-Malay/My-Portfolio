@@ -1,0 +1,51 @@
+#section1 {
+    color: #000000;
+    background-color: #f4f802;
+    height: 180px;
+}
+#section2 {
+    color: #ffffff;
+    background-color: #fd7f09;
+    height: 180px;
+}
+#section3 {
+    color: #ffffff;
+    background-color: #f802bb;
+    height: 300px;
+}
+img {
+    width: 150px;
+    height: 170px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#linker {
+    text-decoration: underline;
+}
+#linker:active,
+#linker:visited {
+    color: #ffffff;
+}
+.lefte {
+    position: absolute;
+    float: left;
+    overflow: hidden;
+}
+.righte {
+    position: relative;
+    float: right;
+    overflow: hidden;
+}
+.input_box {
+    width: 500px;
+    padding: 5px 20px 5px 20px;
+    margin: 5px;
+}
+#input_area {
+    resize: none;
+}
+#input_btn {
+    width: 150px;
+    font-weight: 700;
+}
