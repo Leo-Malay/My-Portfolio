@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Portfolio Website" />
+        <meta
+            name="keywords"
+            content="Malay, Bhavsar, Portfolio, Website, LEO-MALAY"
+        />
+        <title>MALAY BHAVSAR</title>
+        <!--    CSS      -->
+        <link rel="stylesheet" href="./CSS/genreal.css" />
+        <link rel="stylesheet" href="./CSS/contact_me.css" />
+    </head>
+    <body>
+        <!-- HEADER -->
+        <div class="head">
+            <p id="title" style="color: #ffffff">Malay Bhavsar</p>
+        </div>
+        <div class="navi">
+            <ul class="navigation">
+                <li id="navi_li">
+                    <a id="navi_a" href="./index.html">HOME</a>
+                </li>
+                <li id="navi_li">
+                    <a id="navi_a" href="./project.html">PROJECTS</a>
+                </li>
+                <li id="navi_li">
+                    <a id="navi_a" href="./contact_me.html">CONTACT ME</a>
+                </li>
+            </ul>
+        </div>
+        <!-- HEADER -->
+        <!-- SECTION -->
+        <div class="Side_By_Side_2">
+            <div class="section" id="section1">
+                <div class="lefte">
+                    <img src="./IMG/me.jpg" alt="Malay Bhavsar" />
+                </div>
+                <div class="righte">
+                    <p class="heading">Hey it's me!</p>
+                    <br />
+                    <p class="description">
+                        I am Malay Bhavsar.
+                        <br />Passionate developer & learner.
+                    </p>
+                </div>
+            </div>
+            <div class="section" id="section2">
+                <p class="heading">Checkout my Github!</p>
+                <br />
+                <p class="description">
+                    <a
+                        href="http://github.com/Leo-Malay"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        id="linker"
+                    >
+                        Click Here</a
+                    >
+                    to visit my Github page! There are many repository for my
+                    projects. Along with the source ;)
+                </p>
+            </div>
+        </div>
+        <div class="section" id="section3">
+            <p class="heading">
+                Please drop your email here. I will reachout to you soon!
+            </p>
+            <br />
+            <p class="description">
+                Please enter your email and your message in the given box below!
+                <br /><br />
+                <center>
+                    <input
+                        type="email"
+                        name="visiter_email"
+                        class="input_box"
+                        id="input_txtbox"
+                        placeholder="Email goes here!"
+                    />
+                    <br />
+                    <textarea
+                        name="visiter_msg"
+                        class="input_box"
+                        id="input_area"
+                        cols="30"
+                        rows="5"
+                        placeholder="Enter your message here!"
+                    ></textarea>
+                    <br />
+                    <input
+                        type="button"
+                        value="SUBMIT"
+                        onclick="submit_details()"
+                        class="input_box"
+                        id="input_btn"
+                    />
+                </center>
+            </p>
+        </div>
+        <!-- SECTION -->
+        <!-- FOOTER -->
+        <div class="foot">
+            <p>Developed By Malay Bhavsar</p>
+            <p>All Copyright Reserved</p>
+            <p>2020</p>
+        </div>
+        <!-- FOOTER -->
+
+        <!--    Javascript      -->
+        <script src="./JS/contact_me.js"></script>
+        <script src="./JS/general.js"></script>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                color_my_name();
+            });
+        </script>
+    </body>
+</html>
