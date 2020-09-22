@@ -1,22 +1,22 @@
 #section1 {
     color: #000000;
     background-color: #f4f802;
-    height: 370px;
+    height: 400px;
 }
 #section2 {
     color: #ffffff;
     background-color: #0281f8;
-    height: 370px;
+    height: 400px;
 }
 #section3 {
     color: #242323;
     background-color: #02f89a;
-    height: 200px;
+    height: 230px;
 }
 #section4 {
     color: #000000;
     background-color: #02f0f8;
-    height: 200px;
+    height: 230px;
 }
 #section5 {
     color: #ffffff;
@@ -31,12 +31,10 @@
 #display {
     width: 600px;
     height: auto;
-    padding: 10px;
 }
 #display_logo {
     width: 350px;
     height: auto;
-    padding: 10px;
     padding-left: 50px;
 }
 /* CSS for Tic Tac Toe */
