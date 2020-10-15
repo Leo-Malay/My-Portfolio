@@ -1,46 +1,21 @@
-#section1 {
-    color: #000000;
-    background-color: #f4f802;
-    display: flex;
-    flex-direction: row;
+/* For Mobile Screen */
+@media screen and (max-width: 430px) {
+    .my_img {
+        height: 30vw;
+        border: 3px solid #000000;
+    }
 }
-#section2 {
-    color: #ffffff;
-    background-color: #fd7f09;
+/* For Tablet Screen */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+    .my_img {
+        height: 20vw;
+        border: 3px solid #000000;
+    }
 }
-#section3 {
-    color: #ffffff;
-    background-color: #f802bb;
-}
-img {
-    width: 15vw;
-    height: auto; /*17vw*/
-    border: 1px solid #000000;
-    border-radius: 1px;
-    overflow: hidden;
-}
-#linker {
-    text-decoration: underline;
-}
-#linker:active,
-#linker:visited {
-    color: #ffffff;
-}
-.lefte {
-    margin: 1vw;
-}
-.righte {
-    margin: 1vw;
-}
-.input_box {
-    width: 50vw;
-    padding: 0.5vw 2vw 0.5vw 2vw;
-    margin: 0.5vw;
-}
-#input_area {
-    resize: none;
-}
-#input_btn {
-    width: 15vw;
-    font-weight: 700;
+/* For Desktop Screen */
+@media screen and (min-width: 769px) {
+    .my_img {
+        height: 15vw;
+        border: 3px solid #000000;
+    }
 }

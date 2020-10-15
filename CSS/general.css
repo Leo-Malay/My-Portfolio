@@ -1,0 +1,235 @@
+* {
+    margin: 0vw;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-app-region: no-drag;
+    cursor: default;
+}
+body {
+    background-color: #663dff;
+    background-image: linear-gradient(
+        319deg,
+        #663dff 0%,
+        #aa00ff 37%,
+        #cc4499 100%
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+img {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+.page {
+    align-self: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+/* Page header */
+.page_head {
+    text-align: center;
+}
+#page_head_title {
+    font-weight: 600;
+}
+/* Page navigation */
+.navi_ls {
+    text-align: center;
+}
+#navi_li {
+    text-decoration-style: none;
+    display: inline-block;
+}
+#navi_a {
+    text-decoration: none;
+    text-decoration-style: none;
+    color: #000000;
+    font-weight: 600;
+}
+#navi_a:active,
+#navi_a:visited {
+    color: #000000;
+}
+#navi_a:hover {
+    border-bottom: 3px solid #cc4499;
+}
+/* Page content */
+.content_title {
+    font-weight: 600;
+    color: #000000;
+}
+.content_desc {
+    color: #000000;
+}
+/* Page footer */
+.page_foot {
+    background-color: #000000;
+    border-radius: 10px;
+}
+#page_footer {
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+/* For Mobile Screen */
+@media screen and (max-width: 430px) {
+    * {
+        line-height: 25px;
+        letter-spacing: 2px;
+    }
+    .page {
+        padding: 8vw 1vw 0.5vw 1vw;
+        margin: 3.5vw 6.5vw 3.5vw 6.5vw;
+    }
+    /* Page header */
+    .page_head {
+        padding: 1.3vw;
+    }
+    #page_head_title {
+        font-size: 10vw;
+    }
+    /* Page navigation */
+    .navi_ls {
+        margin-top: 0.5vw;
+        text-align: left;
+    }
+    #navi_li {
+        padding: 0.2vw 0.5vw 0.2vw 0.5vw;
+    }
+    #navi_a {
+        font-size: 3.15vw;
+    }
+    /* Page content */
+    .content_section {
+        padding: 1vw;
+        padding-top: 5vw;
+    }
+    .content_title {
+        font-size: 6.5vw;
+        padding: 0.5vw;
+        padding-top: 1vw;
+    }
+    .content_desc {
+        font-size: 4vw;
+        padding: 0.5vw;
+    }
+    /* Page footer */
+    .page_foot {
+        padding: 2.5vw;
+    }
+    #page_footer {
+        font-size: 2vw;
+    }
+}
+/* For Tablet Screen */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+    * {
+        line-height: 24px;
+        letter-spacing: 2px;
+    }
+    .Side_By_Side_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0vw;
+        height: auto;
+    }
+    .page {
+        padding: 8vw 3.8vw 0.8vw 3.8vw;
+        margin: 3.8vw 6.3vw 3.8vw 6.3vw;
+    }
+    /* Page header */
+    .page_head {
+        padding: 1.3vw;
+    }
+    #page_head_title {
+        font-size: 8.5vw;
+    }
+    /* Page navigation */
+    .navi_ls {
+        margin-top: 2vw;
+    }
+    #navi_li {
+        padding: 0.5vw 2vw 0.5vw 2vw;
+    }
+    #navi_a {
+        font-size: 2.5vw;
+    }
+    /* Page content */
+    .content_section {
+        padding: 1vw;
+    }
+    .content_title {
+        font-size: 2.8vw;
+        padding: 0.5vw;
+        padding-top: 1vw;
+    }
+    .content_desc {
+        font-size: 2.3vw;
+        padding: 0.5vw;
+    }
+    /* Page footer */
+    .page_foot {
+        padding: 2.5vw;
+    }
+    #page_footer {
+        font-size: 1.6vw;
+    }
+}
+/* For Desktop Screen */
+@media screen and (min-width: 769px) {
+    * {
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+    .Side_By_Side_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0vw;
+        height: auto;
+    }
+    .page {
+        padding: 5vw 4vw 1vw 4vw;
+        margin: 4vw 6.5vw 4vw 6.5vw;
+    }
+    /* Page header */
+    .page_head {
+        padding: 1.3vw;
+    }
+    #page_head_title {
+        font-size: 5.5vw;
+    }
+    /* Page navigation */
+    .navi_ls {
+        margin-top: 4vw;
+    }
+    #navi_li {
+        padding: 0.4vw 1.8vw 0.4vw 1.8vw;
+    }
+    #navi_a {
+        font-size: 1.8vw;
+    }
+    /* Page content */
+    .content_section {
+        padding: 1vw;
+    }
+    .content_title {
+        font-size: 2vw;
+        padding: 0.5vw;
+        padding-top: 1vw;
+    }
+    .content_desc {
+        font-size: 1.3vw;
+        padding: 0.5vw;
+    }
+    /* Page footer */
+    .page_foot {
+        padding: 1.7vw;
+    }
+    #page_footer {
+        font-size: 1.3vw;
+    }
+}

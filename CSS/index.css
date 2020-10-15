@@ -1,24 +1,72 @@
-#section1 {
+#content_certi_desc {
+    position: relative;
+    margin: auto;
+}
+#desc_certi_img {
+    border: 1px solid #9a00d6;
+    vertical-align: middle;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 1.6vw;
+    margin-top: -2.2vw;
     color: #000000;
-    background-color: #f4f802;
+    font-weight: 800;
+    font-size: 1.8vw;
+    transition: 0.8s;
+    border-radius: 10px;
+    user-select: none;
 }
-#section2 {
+.next {
+    right: 0;
+}
+.prev:hover,
+.next:hover {
+    background-color: #252525;
     color: #ffffff;
-    background-color: #0281f8;
 }
-#section3 {
-    color: #242323;
-    background-color: #02f89a;
+.dot {
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 2px;
+    background-color: #d6d6d6;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.8s;
 }
-#section4 {
-    color: #ffffff;
-    background-color: #f80254;
+.active,
+.dot:hover {
+    background-color: #464646;
 }
-#section5 {
-    color: #000000;
-    background-color: #02f0f8;
+/* For Mobile Screen */
+@media screen and (max-width: 430px) {
+    #content_certi_desc {
+        max-width: 65vw;
+    }
+    #desc_certi_img {
+        max-width: 55vw;
+    }
 }
-#section6 {
-    color: #ffffff;
-    background-color: #b41df0;
+/* For Tablet Screen */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+    #content_certi_desc {
+        max-width: 55vw;
+    }
+    #desc_certi_img {
+        max-width: 45vw;
+    }
+}
+/* For Desktop Screen */
+@media screen and (min-width: 769px) {
+    #content_certi_desc {
+        max-width: 45vw;
+    }
+    #desc_certi_img {
+        max-width: 35vw;
+    }
 }
