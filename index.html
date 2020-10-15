@@ -3,120 +3,138 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Portfolio Website" />
-        <meta
-            name="keywords"
-            content="Malay, Bhavsar, Portfolio, Website, LEO-MALAY"
-        />
-        <title>MALAY BHAVSAR</title>
-        <!--    CSS      -->
-        <link rel="stylesheet" href="./CSS/genreal.css" />
-        <link rel="stylesheet" href="./CSS/index.css" />
+        <title>Malay Bhavsar</title>
+        <link rel="stylesheet" href="./CSS/general.css" />
+        <link rel="stylesheet" href="./CSS/index.css">
     </head>
     <body>
-        <!-- HEADER -->
-        <div class="head">
-            <p id="title" style="color:#ffffff;">Malay Bhavsar</p>
-        </div>
-        <div class="navi">
-            <ul class="navigation">
-                <li id="navi_li"><a id="navi_a" href="./index.html">HOME</a></li>
-                <li id="navi_li"><a id="navi_a" href="./project.html">PROJECTS</a></li>
-                <li id="navi_li">
-                    <a id="navi_a" href="./course.html">CERTIFICATES</a>
-                </li>
-                <li id="navi_li"><a id="navi_a" href="./contact_me.html">CONTACT ME</a></li>
-            </ul>
-        </div>
-        <!-- HEADER -->
-        <!-- SECTION -->
-        <div class="Side_By_Side_2">
-            <div class="section" id="section1">
-                <p class="heading">Hello World!</p>
-                <br />
-                <p class="description">
-                    Hello I am Malay Bhavsar. An Undergraduate 2<sup>nd</sup>
-                    year student at A. D. Patel Institute of Technology. I am
-                    currently studing Information Technology (IT).
+        <div class="page">
+            <!-- Page header goes here -->
+            <div class="page_head">
+                <p id="page_head_title">Malay Bhavsar</p>
+                <div class="navi_ls">
+                    <ul id="navi_ul">
+                        <li id="navi_li">
+                            <a id="navi_a" href="./index.html">Home</a>
+                        </li>
+                        <li id="navi_li">
+                            <a id="navi_a" href="./projects.html">Projects</a>
+                        </li>
+                        <li id="navi_li">
+                            <a id="navi_a" href="./code_snips.html"
+                                >Code Snips</a
+                            >
+                        </li>
+                        <li id="navi_li">
+                            <a id="navi_a" href="./contact_me.html"
+                                >Contact Me</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Page content goes here -->
+            <div class="page_content">
+                <div class="content_section">
+                    <div class="content_title"><p>Hello World!</p></div>
+                    <div class="content_desc">
+                        <p>
+                            I am Malay Bhavsar( LEO-Malay ). I am currently an
+                            2<sup>nd</sup> Undergraduate student at A.D Patel
+                            Institute of Technology, Anand. Pursuing Bechlor's
+                            degree in Information Technology( IT ).I developed
+                            passion for Computer & Coding when I was in 9th
+                            Grade. I developed my very first Website saying
+                            Hello World. This Motivated me to learn more!
+                        </p>
+                    </div>
+                </div>
+                <div class="content_section">
+                    <div class="content_title"><p>Programming Languages</p></div>
+                    <div class="content_desc">
+                        <p>
+                            Programming languages are like a boon to human with which they can build anything! Ofcourse can't make the Elixer of Life but pretty much anything which can make our life easy! I prefer to code in any of the following languages:
+                            <ul>
+                                <li>Python</li> 
+                                <li>C C++</li>
+                                <li>JavaScript</li>
+                                <li>Html</li>
+                                <li>CSS</li>
+                                <li>And many more with basic syntaxs</li>    
+                            </ul>
+                            But this doesn't limit me! I always look forward to learn something new!
+                        </p>
+                    </div>
+                </div>
+                <div class="content_section">
+                    <div class="content_title"><p>Some of the things I have experience with!</p></div>
+                    <div class="content_desc">
+                        <p>
+                            <ul>
+                                <li>Setting Up Ubuntu File Server for Home.</li> 
+                                <li>Formatting Computer & Installing Operating System(Windows & Ubuntu)</li>
+                                <li>Created Database Software.(Visit Projects)</li>
+                                <li>Developed Simple games! (Tic Tac Toe & Bomber)</li>
+                                <li>Facial Recognition System</li>
+                                <li>And many more..</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="content_section" id="certi_section">
+                    <div class="content_title">
+                        <p>Here are my Certifications!</p>
+                    </div>
+                    <div class="content_desc" id="content_certi_desc">
+                        <br />
+                        <a class="prev" onclick="plusSlide(-1)">&#10094;</a>
+                        <center>
+                            <p id="desc_certi" style="padding-bottom: 0.5vw;"> </p>
+                            <img src="./IMG/" alt="Certificates" id="desc_certi_img">
+                        </center>
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(0)"></span> 
+                            <span class="dot" onclick="currentSlide(1)"></span> 
+                            <span class="dot" onclick="currentSlide(2)"></span> 
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                            <span class="dot" onclick="currentSlide(4)"></span> 
+                        </div>
+                        <a class="next" onclick="plusSlide(1)">&#10095;</a>
+                    </div>
+                </div>
+                <div class="content_section">
+                    <div class="content_title"><p>Things I like to do!</p></div>
+                    <div class="content_desc">
+                        <p>
+                            <ul>
+                                <li>Learn new programming language</li> 
+                                <li>Solve different problem</li>
+                                <li>Meet different people</li>
+                                <li>Cryptography</li>
+                                <li>Code Analysis & Optimization</li>
+                                <li>Playing Games</li>
+                                <li>Etc..</li>
+                            </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Page footer goes here -->
+            <div class="page_foot">
+                <p id="page_footer">
+                    Made this website with lots of Love and Optimization!
+                    <br />
+                    Site Designed by Malay
+                    <br />
+                    All Rights Reserved
+                    <br />
+                    2020
                 </p>
             </div>
-            <div class="section" id="section2">
-                <p class="heading">About Me</p>
-                <br />
-                <p class="description">
-                    I developed passion for Computer & Coding when I was in
-                    9<sup>th</sup> Grade. I developed my very first Website
-                    saying Hello World. This Motivated me to learn more!
-                </p>
-            </div>
         </div>
-        <div class="section" id="section3">
-            <p class="heading">Programming Languages</p>
-            <br />
-            <p class="description">
-                Programming languages are like a boon to human with which they
-                can build anything! Ofcourse can't make the Elixer of Life but
-                pretty much anything which can make our life easy! I prefer to
-                code in any of the following languages:<br /><br />
-                <ul>
-                    <li id="desc">Python</li>
-                    <li id="desc">C / C++</li>
-                    <li id="desc">Javascript</li>
-                    <li id="desc">HTML</li>
-                    <li id="desc">CSS</li>
-                </ul>
-                <br />
-                <p id="desc"> But this doesn't limit me! I always look forward to learn something new!</p>
-            </p>
-        </div>
-        <div class="Side_By_Side_3">
-        <div class="section" id="section4">
-            <p class="heading">Things I Like</p>
-            <br />
-            <p class="description">
-                <ul>
-                    <li id="desc">Learn New Things</li>
-                    <li id="desc">Solving Problem</li>
-                    <li id="desc">Cryptography</li>
-                    <li id="desc">Code Analysis</li>
-                    <li id="desc">Optimization</li>
-                </ul>
-            </p>
-        </div>
-        <div class="section" id="section5">
-            <p class="heading">Things I've Done</p>
-            <br />
-            <p class="description">
-                <ul>
-                    <li id="desc">Setup File-Server (UBUNTU)</li>
-                    <li id="desc">Formatted & installed OS(Windows/Ubuntu)</li>
-                    <li id="desc">Database Software (Project)</li>
-                    <li id="desc">Developed Simple games!</li>
-                    <li id="desc">And many more!</li>
-                </ul>
-            </p>
-        </div>
-        <div class="section" id="section6">
-            <p class="heading">My Thoughts</p>
-            <br /><br />
-            <p class="description">
-                "Never Settle For Comfort!"<br /><br />
-                "Try, Fail, Take Break, Learn, But never QUIT"<br />
-            </p>
-        </div>
-        </div>
-        <!-- SECTION -->
-        <!-- FOOTER -->
-        <div class="foot">
-            <p>Developed By Malay Bhavsar</p>
-            <p>All Copyright Reserved</p>
-            <p>2020</p>
-        </div>
-        <!-- FOOTER -->
-
-        <!--    Javascript      -->
-        <script src="./JS/index.js"></script>
+        <!-- SCRIPT -->
         <script src="./JS/general.js"></script>
+        <script src="./JS/index.js"></script>
         <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
         <script>
             $(document).ready(function () {
