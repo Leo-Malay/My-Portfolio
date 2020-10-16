@@ -78,7 +78,7 @@ img {
 /* For Mobile Screen */
 @media screen and (max-width: 430px) {
     * {
-        line-height: 25px;
+        line-height: 23px;
         letter-spacing: 2px;
     }
     .page {
@@ -91,17 +91,18 @@ img {
     }
     #page_head_title {
         font-size: 10vw;
+        padding-bottom: 5vw;
     }
     /* Page navigation */
     .navi_ls {
-        margin-top: 0.5vw;
+        margin-top: 1.25vw;
         text-align: left;
     }
     #navi_li {
-        padding: 0.2vw 0.5vw 0.2vw 0.5vw;
+        padding: 0.2vw 0.2vw 0.2vw 0.2vw;
     }
     #navi_a {
-        font-size: 3.15vw;
+        font-size: 3vw;
     }
     /* Page content */
     .content_section {
@@ -109,12 +110,11 @@ img {
         padding-top: 5vw;
     }
     .content_title {
-        font-size: 6.5vw;
-        padding: 0.5vw;
-        padding-top: 1vw;
+        font-size: 6vw;
+        padding: 5vw 0.5vw 2.5vw 0.5vw;
     }
     .content_desc {
-        font-size: 4vw;
+        font-size: 3.5vw;
         padding: 0.5vw;
     }
     /* Page footer */
