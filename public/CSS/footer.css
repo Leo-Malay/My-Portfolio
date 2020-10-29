@@ -1,0 +1,23 @@
+.footer {
+    overflow: hidden;
+    position: relative;
+}
+.footer img {
+    width: 100%;
+}
+.main_foot {
+    position: absolute;
+    color: #ffffff;
+    left: 10%;
+    top: 30%;
+    animation: opacity_0_1_rl 3s;
+}
+#main_foot {
+    font-size: 6vw;
+    font-weight: 800;
+}
+#sub_foot {
+    font-size: 2.5vw;
+    font-weight: 600;
+    padding-left: 2vw;
+}
