@@ -1,0 +1,21 @@
+/* For Mobile Screen */
+@media screen and (max-width: 430px) {
+    .my_img {
+        height: 30vw;
+        border: 3px solid #000000;
+    }
+}
+/* For Tablet Screen */
+@media screen and (min-width: 432px) and (max-width: 768px) {
+    .my_img {
+        height: 20vw;
+        border: 3px solid #000000;
+    }
+}
+/* For Desktop Screen */
+@media screen and (min-width: 769px) {
+    .my_img {
+        height: 15vw;
+        border: 3px solid #000000;
+    }
+}
