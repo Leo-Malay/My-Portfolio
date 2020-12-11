@@ -350,6 +350,9 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="./public/JS/general.js"></script>
         <script>
+            if ($(window).width() < 500) {
+                alert("Please, Rotate your Mobile to Horizontal View");
+            }
             set_theme(1);
             var square = document.querySelectorAll("[id='square']");
             window.onscroll = function () {
