@@ -1,0 +1,36 @@
+.section_main #main,
+.section_s #main {
+    font-size: 4vw;
+}
+.section_main #desc,
+.section_s #desc {
+    font-size: 1.3vw;
+    width: 35vw;
+}
+/*--- Wall ---*/
+.lay1 #brick,
+.lay2 #brick,
+.lay3 #brick,
+.lay4 #brick,
+.lay1 #brick_half,
+.lay2 #brick_half,
+.lay3 #brick_half,
+.lay4 #brick_half {
+    position: absolute;
+}
+.lay1 #brick,
+.lay1 #brick_half {
+    top: 20%;
+}
+.lay2 #brick,
+.lay2 #brick_half {
+    top: 30%;
+}
+.lay3 #brick,
+.lay3 #brick_half {
+    top: 40%;
+}
+.lay4 #brick,
+.lay4 #brick_half {
+    top: 50%;
+}

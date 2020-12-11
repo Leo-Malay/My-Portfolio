@@ -1,0 +1,9 @@
+.section_main #main,
+.section_s #main {
+    font-size: 3.5vw;
+}
+.section_main #desc,
+.section_s #desc {
+    font-size: 1.3vw;
+    width: 35vw;
+}

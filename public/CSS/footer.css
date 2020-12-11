@@ -1,0 +1,14 @@
+.footer {
+    overflow: hidden;
+    background-color: #4447ff;
+    color: #ffffff;
+    padding: 3vw;
+    text-align: center;
+}
+.footer #main {
+    font-size: 2vw;
+}
+.footer #desc {
+    padding-top: 1vw;
+    font-size: 1vw;
+}

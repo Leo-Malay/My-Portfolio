@@ -1,0 +1,23 @@
+#square:hover {
+    animation: rotating_square 1.5s ease-in-out infinite alternate;
+}
+#brick:hover {
+    animation: shake_it 500ms 2 ease-in-out alternate;
+}
+
+@keyframes rotating_square {
+    from {
+        transform: inherit;
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes shake_it {
+    from {
+        transform: rotate(-2deg);
+    }
+    to {
+        transform: rotate(2deg);
+    }
+}

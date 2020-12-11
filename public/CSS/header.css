@@ -1,0 +1,43 @@
+.header {
+    overflow: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    display: block;
+    width: 100%;
+    top: 0;
+    height: 5vw;
+    border-bottom-width: 3px;
+    border-color: #fee715ff;
+    z-index: 100;
+}
+.header-wrap {
+    position: relative;
+}
+#head {
+    position: absolute;
+    color: #fee715ff;
+    left: 5%;
+    font-size: 3vw;
+    font-weight: 700;
+    padding: 0.5vw;
+}
+.header-wrap #desc {
+    position: absolute;
+    right: 5%;
+    display: inline-flex;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding: 1vw;
+}
+.header-wrap .tab {
+    text-decoration: none;
+    padding: 0.75vw;
+}
+#active {
+    background-color: #101820ff;
+    color: #fee715ff;
+    border-radius: 10px;
+}
+#inactive {
+    color: #fee715ff;
+}
